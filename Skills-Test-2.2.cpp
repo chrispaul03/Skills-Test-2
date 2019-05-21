@@ -11,9 +11,8 @@ int main()
 
     for(b=1; b<=10; ++b)
     {
-		printf("%d * %d = %d \n" , a, b, a*b);
+		cout << a << " * " << b << " = " << a * b << endl;
 	}
     _getch();
     return 0;
 }
-
